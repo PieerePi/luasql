@@ -44,6 +44,9 @@ DRIVER_INCS_odbc ?= -DUNIXODBC -I/usr/local/include
 # - Firebird
 DRIVER_LIBS_firebird ?= -L/usr/local/firebird -lfbclient
 DRIVER_INCS_firebird ?=
+# - DM
+DRIVER_LIBS_dm ?= -L./dmoci -ldmoci
+DRIVER_INCS_dm ?= -I./dmoci/include
 
 # general compilation parameters
 WARN = -Wall -Wmissing-prototypes -Wmissing-declarations -pedantic
