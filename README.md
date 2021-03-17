@@ -1,14 +1,14 @@
-达梦LuaSQL支持说明
+# 达梦LuaSQL支持说明
 
-# 源文件
+## 源文件
 
 达梦和Oracle高度兼容，src目录下的ls_dm.c和dm.def这两个文件，是ls_oci8.c和oci8.def的拷贝，只是将里面和OCI8/oci8相关的字样，修改为了DM/dm。
 
-# 库目录
+## 库目录
 
 dmoci这个目录是达梦数据库 (Redhat 7 64位) 服务器安装目录下的drivers/oci目录。
 
-# 运行时
+## 运行时
 
 数据库客户端需要dmoci下的三个so文件，可以将这三个文件放在客户机目录/usr/local/lib/dmoci下。
 
